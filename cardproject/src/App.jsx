@@ -1,4 +1,5 @@
 import Card from './Card.jsx'
+import Hello from './components/Hello.jsx';
 
 function App(){
   return(
@@ -6,6 +7,7 @@ function App(){
     <h1>Representing Card</h1>
     <Card/>
     <Card/>
+    <Hello/>
     </>
 
   );
