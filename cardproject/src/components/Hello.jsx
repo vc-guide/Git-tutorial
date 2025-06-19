@@ -3,13 +3,8 @@ import React from 'react';
 const Hello = () => {
   const name =["vini", "babu", "raju"]
   return (
-    <div>Hello
-      <h1>Myre Idapadu</h1>
-      <section>
-        {name.map(n=>(
-          <li>{n}</li>
-        ))}
-      </section>
+    <div>
+      <h1 style={{textAlign:"center", textDecoration:"underline",marginBottom:"0"}}>Your Card</h1>  
     </div>
   )
 }
