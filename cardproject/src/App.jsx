@@ -1,3 +1,4 @@
+import Babu from './Babu.jsx';
 import Card from './Card.jsx'
 import Hello from './components/Hello.jsx';
 
